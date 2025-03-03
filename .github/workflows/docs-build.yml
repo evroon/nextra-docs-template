@@ -1,0 +1,31 @@
+name: docs test
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup yarn
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'yarn'
+          cache-dependency-path: yarn.lock
+
+      - name: Install npm modules
+        run: yarn
+
+      - name: Run tests
+        run: yarn test-check
+
+      - name: Build docs
+        run: yarn build
