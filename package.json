@@ -40,7 +40,7 @@
     "@radix-ui/react-navigation-menu": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@tabler/icons-react": "^3.19.0",
-    "@tailwindcss/postcss": "^4.0.9",
+    "@tailwindcss/postcss": "^4.0.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.477.0",
@@ -55,7 +55,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.9",
+    "@tailwindcss/postcss": "^4.0.12",
     "@trivago/prettier-plugin-sort-imports": "^5.0.1",
     "@types/mdx": "^2.0.13",
     "@types/node": "^22.13.10",
