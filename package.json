@@ -69,7 +69,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "markdownlint-cli2": "^0.18.0",
-    "markdownlint-rule-relative-links": "^4.0.1",
+    "markdownlint-rule-relative-links": "^4.1.0",
     "postcss": "^8.4.38",
     "prettier": "^3.1.0",
     "tailwindcss": "^4.0.9",
