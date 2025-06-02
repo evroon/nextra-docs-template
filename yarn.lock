@@ -4303,10 +4303,10 @@ markdownlint-cli2@^0.18.0:
     markdownlint-cli2-formatter-default "0.0.5"
     micromatch "4.0.8"
 
-markdownlint-rule-relative-links@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-relative-links/-/markdownlint-rule-relative-links-4.1.0.tgz#921d31d3ee5e223eb381dd70835163745328b6f3"
-  integrity sha512-aTDwiSVXOY0sc37+BRNwzaSawIVzl+ok8A7CHezW9i458YQGpKKw5F+2oy8KdXjP1lNbckoRur1rzZcz5duhQQ==
+markdownlint-rule-relative-links@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-rule-relative-links/-/markdownlint-rule-relative-links-4.2.0.tgz#b922791098c1b4d9cd790c371132d753fcd60dc2"
+  integrity sha512-A81Bgl+ZeN9kBcWs79PQlE33ziqtA20rFGwfCgI8BDr03aJI4E2WOxp36hdvVwKC/owTVqj2O4ILpZVhdxwJ/g==
   dependencies:
     markdown-it "14.1.0"
 
