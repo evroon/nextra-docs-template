@@ -45,7 +45,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.561.0",
     "next": "^16.0.10",
-    "nextra": "^4.4.0",
+    "nextra": "^4.6.1",
     "nextra-theme-docs": "^4.4.0",
     "pagefind": "^1.4.0",
     "react": "^19.2.0",
