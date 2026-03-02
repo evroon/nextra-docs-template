@@ -4670,18 +4670,6 @@ markdown-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/markdown-extensions/-/markdown-extensions-2.0.0.tgz#34bebc83e9938cae16e0e017e4a9814a8330d3c4"
   integrity sha512-o5vL7aDWatOTX8LzaS1WMoaoxIiLRQJuIKKe2wAw6IeULDHaqbiqiggmx+pKvZDb1Sj+pE46Sn1T7lCqfFtg1Q==
 
-markdown-it@14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.1.0.tgz#3c3c5992883c633db4714ccb4d7b5935d98b7d45"
-  integrity sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==
-  dependencies:
-    argparse "^2.0.1"
-    entities "^4.4.0"
-    linkify-it "^5.0.0"
-    mdurl "^2.0.0"
-    punycode.js "^2.3.1"
-    uc.micro "^2.1.0"
-
 markdown-it@14.1.1:
   version "14.1.1"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.1.1.tgz#856f90b66fc39ae70affd25c1b18b581d7deee1f"
@@ -4717,12 +4705,12 @@ markdownlint-cli2@^0.21.0:
     markdownlint-cli2-formatter-default "0.0.6"
     micromatch "4.0.8"
 
-markdownlint-rule-relative-links@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-relative-links/-/markdownlint-rule-relative-links-5.0.1.tgz#2491746512c29a0c4b25af502fbc41d9e91320f1"
-  integrity sha512-siyArZC6ls9NsaxXlBOjscnmKXsGvQLYgmCwQxbkBYXT6UoOk6+SzaJbqFfaLKV89LJ6ircrLIplIaFitd8J7A==
+markdownlint-rule-relative-links@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-rule-relative-links/-/markdownlint-rule-relative-links-5.1.0.tgz#f84bbfa2bcc1df02e570d1ad2c9fb7f39e9f5760"
+  integrity sha512-0jZ3NlTXvAdV7XqWlVQ5guSee2W67acLrH102KOHk3t2nG5mzsoqGCBYUwNyeNBBpzc1hbj4bgi5maexB25V+A==
   dependencies:
-    markdown-it "14.1.0"
+    markdown-it "14.1.1"
     mime "4.1.0"
 
 markdownlint@0.40.0:
