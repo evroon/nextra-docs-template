@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../components/ui/card";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 interface TeamProps {
   imageUrl: string;
@@ -33,10 +33,6 @@ const teamList: TeamProps[] = [
         url: "https://www.linkedin.com/in/leopoldo-miranda/",
       },
       {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
         name: "Instagram",
         url: "https://www.instagram.com/",
       },
@@ -50,10 +46,6 @@ const teamList: TeamProps[] = [
       {
         name: "Linkedin",
         url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
       },
       {
         name: "Instagram",
@@ -87,8 +79,8 @@ const teamList: TeamProps[] = [
         url: "https://www.linkedin.com/in/leopoldo-miranda/",
       },
       {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
+        name: "Instagram",
+        url: "https://www.instagram.com/",
       },
     ],
   },
@@ -98,13 +90,10 @@ export const Team = () => {
   const socialIcon = (iconName: string) => {
     switch (iconName) {
       case "Linkedin":
-        return <Linkedin size="20" />;
-
-      case "Facebook":
-        return <Facebook size="20" />;
+        return <LinkedInLogoIcon className="w-5 h-5" />;
 
       case "Instagram":
-        return <Instagram size="20" />;
+        return <InstagramLogoIcon className="w-5 h-5" />;
     }
   };
 
